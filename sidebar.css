@@ -1,0 +1,33 @@
+.sidebar-section{
+    position:fixed;
+    left:0;
+    bottom:0;
+    top:60px;
+    background-color:white;
+    z-index:200;
+    display:flex;
+    flex-direction:column;
+    padding-top:5px;
+    width:80px;
+}
+
+.sidebar-section img{
+    height:24px;
+    margin-bottom:5px;
+}
+
+.sidebar-section div{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:15px 0px;
+}
+
+.sidebar-section  .icon-name{
+    padding:0px;
+    font-size:10px;
+}
+
+.sidebar-section div:hover{
+    background-color:rgb(238, 238, 238);
+}
