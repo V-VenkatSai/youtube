@@ -45,7 +45,7 @@
     flex:1;
     margin:40px;
     max-width: 475px;
-    min-width: 100px;
+    min-width: 120px;
 }
 
 .header-middle-section .search-bar{
@@ -133,12 +133,15 @@
 }
 
 .header-right-section{
-    justify-content: space-between;
+    display: flex;
+    gap:22px;
     align-items:center;
     width: 180px;
     flex-shrink:0;
     padding-right:25px;
 }
+
+
 
 .header-right-section .upload-icon, .youtube-apps-icon, .notifications-icon{
     height:24px;
