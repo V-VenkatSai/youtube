@@ -14,27 +14,25 @@ p{
     column-gap:8px;   
     padding:20px;
 }
-@media screen {
-    
-}
-@media screen and (min-width: 250px) {
+
+@media screen and (max-width: 549px) {
     .video-section{
         grid-template-columns:1fr;
         
     }   
 }
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 550px) {
     .video-section{
         grid-template-columns:1fr 1fr;
     }
 }
 
-@media screen and (min-width: 928px) {
+@media screen and (min-width: 1024px) {
     .video-section{
         grid-template-columns:1fr 1fr 1fr;
     }
-    
+
 }
 
 @media screen and (min-width: 1200px) {
